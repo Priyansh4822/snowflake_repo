@@ -12,12 +12,12 @@ user = os.getenv("USER")
 password = os.getenv("PASSWORD")
 
 connection_parameters = {
-    "user":'PriyanshS',
-    "password":'PriyanshS@1698',
-    "account":'vpaakyg-dt70010',
-    "warehouse":'TEST_WH',
-    "database":'snowflake_sample_data',
-    "schema":'tpch_sf10'
+    "user":'your user_name',
+    "password":'your password',
+    "account":'your account_name',
+    "warehouse":'your warehouse_name',
+    "database":'your database name',
+    "schema":'your schema_name'
 }
 new_session = Session.builder.configs(connection_parameters).create()
 
